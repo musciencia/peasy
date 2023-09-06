@@ -3,6 +3,7 @@
     "description": "An easy peasy and opinionated router for PHP",
     "type": "library",
     "license": "MIT",
+    "homepage": "https://github.com/musciencia/peasy.git",
     "autoload": {
         "psr-4": {
             "ArtKoder\\Peasy\\": "src/"
