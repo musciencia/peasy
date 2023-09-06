@@ -95,9 +95,6 @@ class Router
 
         $this->controllerFunction = empty($this->controllerFunction) ? 'Index' : Strings::toPascalCase($this->controllerFunction);
         $this->controllerFunction = strtolower($requestMethod) . $this->controllerFunction;
-
-        error_log($this->controllerClass);
-        error_log($this->controllerFunction);
     }
 
 

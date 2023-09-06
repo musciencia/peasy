@@ -1,19 +1,22 @@
 {
-    "name": "artkoder/peasy",
-    "description": "An easy peasy and opinionated router for PHP",
+    "name": "artkoder/peasy-router",
+    "description": "A simple, easy to use, and opinionated router for PHP",
     "type": "library",
+    "keywords": ["router", "route", "routing"],
     "license": "MIT",
     "homepage": "https://github.com/musciencia/peasy.git",
-    "autoload": {
-        "psr-4": {
-            "ArtKoder\\Peasy\\": "src/"
-        }
-    },
     "authors": [
         {
             "name": "Francisco Fernandez del Castillo Gomez",
             "email": "musciencia@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "ArtKoder\\Peasy\\": "src/"
+        }
+    }
 }
