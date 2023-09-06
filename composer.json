@@ -1,0 +1,18 @@
+{
+    "name": "artcoder/peasy",
+    "description": "An easy peasy and opinionated router for PHP",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Artcoder\\Peasy\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Francisco Fernandez del Castillo Gomez",
+            "email": "musciencia@gmail.com"
+        }
+    ],
+    "require": {}
+}
