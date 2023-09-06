@@ -1,11 +1,11 @@
 {
-    "name": "artcoder/peasy",
+    "name": "artkoder/peasy",
     "description": "An easy peasy and opinionated router for PHP",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Artcoder\\Peasy\\": "src/"
+            "ArtKoder\\Peasy\\": "src/"
         }
     },
     "authors": [
