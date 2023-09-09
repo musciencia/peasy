@@ -22,11 +22,17 @@ class Route
         $this->method = $method;
         $this->regex = self::pathToRegex($path);
         $this->controller = explode('::', $controller);
+        $this->name = $name;
     }
 
     
     private static function pathToRegex(string $path)
     {
+        // Special regex for home page
+        if ($path="/") {
+            return "#^/$#";
+        }
+        
         $replacePattern = "#{(.+?)}#";
         return "#^" . preg_replace($replacePattern, '(?<$1>.+)', $path) . "/?$#";
     }
