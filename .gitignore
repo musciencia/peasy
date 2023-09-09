@@ -1,4 +1,7 @@
 composer.phar
 /vendor/
-/src/Controllers
+/src/Controllers/
 /public/
+.env
+/sandbox/
+/routes/
