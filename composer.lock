@@ -4,8 +4,46 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "683d5692731911a4ef2f00645ac661fc",
-    "packages": [],
+    "content-hash": "0693dce995c85c73a115a71b802e676e",
+    "packages": [
+        {
+            "name": "artkoder/kvpparser",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/musciencia/kvpparser.git",
+                "reference": "e380fb5050bb4ba3e1f7574b0deabbf0a3e5ca6a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/musciencia/kvpparser/zipball/e380fb5050bb4ba3e1f7574b0deabbf0a3e5ca6a",
+                "reference": "e380fb5050bb4ba3e1f7574b0deabbf0a3e5ca6a",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ArtKoder\\KvpParser\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Francisco Fernandez",
+                    "email": "musciencia@gmail.com"
+                }
+            ],
+            "description": "A library to read and parse files with key value pairs.",
+            "support": {
+                "issues": "https://github.com/musciencia/kvpparser/issues",
+                "source": "https://github.com/musciencia/kvpparser/tree/v0.1.0"
+            },
+            "time": "2023-09-23T00:08:05+00:00"
+        }
+    ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
@@ -16,5 +54,5 @@
         "php": ">=7.4"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.2.0"
 }

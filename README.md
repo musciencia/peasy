@@ -18,6 +18,8 @@ at the same level as your `index.php`.
 
 ```
 <IfModule mod_rewrite.c>
+    RewriteEngine On
+
     # Redirect Trailing Slashes If Not A Folder...
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_URI} (.+)/$

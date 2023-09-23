@@ -29,7 +29,7 @@ class Route
     private static function pathToRegex(string $path)
     {
         // Special regex for home page
-        if ($path="/") {
+        if ($path === "/") {
             return "#^/$#";
         }
         

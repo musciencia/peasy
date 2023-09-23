@@ -5,3 +5,4 @@ composer.phar
 .env
 /sandbox/
 /routes/
+/nbproject/

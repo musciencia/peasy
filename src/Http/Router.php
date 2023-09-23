@@ -32,7 +32,7 @@ class Router
         $parsedUri = parse_url($uri);
         $path = $parsedUri['path'] ?? '';
         $query = $parsedUri['query'] ?? '';
-        // print_r($parsedUri);
+
         foreach ($this->routes as $name => $route) {
             $matches = $route->match($path);
             if (!empty($matches)) {
