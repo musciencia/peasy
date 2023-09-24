@@ -6,3 +6,4 @@ composer.phar
 /sandbox/
 /routes/
 /nbproject/
+/.phpunit.result.cache

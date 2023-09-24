@@ -24,6 +24,7 @@ class Router
                 $this->routes[] = Route::new($loadedRoute);
             }
         }
+//        print_r($this->routes);
     }
 
     public function handleRequest()
@@ -32,7 +33,7 @@ class Router
         $parsedUri = parse_url($uri);
         $path = $parsedUri['path'] ?? '';
         $query = $parsedUri['query'] ?? '';
-
+        
         foreach ($this->routes as $name => $route) {
             $matches = $route->match($path);
             if (!empty($matches)) {
@@ -41,8 +42,9 @@ class Router
                 }, ARRAY_FILTER_USE_KEY);
                 
                 return $route->callController($arguments, $query);
-            }
+            } 
         }
+        return false;
     }
 
     public static function redirect($path)
