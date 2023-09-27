@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "artkoder/kvpparser",
-            "version": "v0.1.4",
+            "version": "v0.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/musciencia/kvpparser.git",
-                "reference": "d46b0e0c0bb53a841c2c6e7fb856046cb432053b"
+                "reference": "aad4aa0922252d2c07e4e1f225b6f4ebdc66b214"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/musciencia/kvpparser/zipball/d46b0e0c0bb53a841c2c6e7fb856046cb432053b",
-                "reference": "d46b0e0c0bb53a841c2c6e7fb856046cb432053b",
+                "url": "https://api.github.com/repos/musciencia/kvpparser/zipball/aad4aa0922252d2c07e4e1f225b6f4ebdc66b214",
+                "reference": "aad4aa0922252d2c07e4e1f225b6f4ebdc66b214",
                 "shasum": ""
             },
             "require-dev": {
@@ -42,9 +42,9 @@
             "description": "A library to read and parse files with key value pairs.",
             "support": {
                 "issues": "https://github.com/musciencia/kvpparser/issues",
-                "source": "https://github.com/musciencia/kvpparser/tree/v0.1.4"
+                "source": "https://github.com/musciencia/kvpparser/tree/v0.1.5"
             },
-            "time": "2023-09-23T16:33:30+00:00"
+            "time": "2023-09-27T07:54:34+00:00"
         }
     ],
     "packages-dev": [
@@ -1131,16 +1131,16 @@
         },
         {
             "name": "sebastian/exporter",
-            "version": "5.1.0",
+            "version": "5.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/exporter.git",
-                "reference": "c3fa8483f9539b190f7cd4bfc4a07631dd1df344"
+                "reference": "64f51654862e0f5e318db7e9dcc2292c63cdbddc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/exporter/zipball/c3fa8483f9539b190f7cd4bfc4a07631dd1df344",
-                "reference": "c3fa8483f9539b190f7cd4bfc4a07631dd1df344",
+                "url": "https://api.github.com/repos/sebastianbergmann/exporter/zipball/64f51654862e0f5e318db7e9dcc2292c63cdbddc",
+                "reference": "64f51654862e0f5e318db7e9dcc2292c63cdbddc",
                 "shasum": ""
             },
             "require": {
@@ -1154,7 +1154,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "5.0-dev"
+                    "dev-main": "5.1-dev"
                 }
             },
             "autoload": {
@@ -1197,7 +1197,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/exporter/issues",
                 "security": "https://github.com/sebastianbergmann/exporter/security/policy",
-                "source": "https://github.com/sebastianbergmann/exporter/tree/5.1.0"
+                "source": "https://github.com/sebastianbergmann/exporter/tree/5.1.1"
             },
             "funding": [
                 {
@@ -1205,7 +1205,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-09-18T07:15:37+00:00"
+            "time": "2023-09-24T13:22:09+00:00"
         },
         {
             "name": "sebastian/global-state",
